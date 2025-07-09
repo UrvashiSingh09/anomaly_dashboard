@@ -30,17 +30,21 @@ A web-based dashboard built using Django and Pandas that automatically detects a
 1. Clone the Repository
    
 git clone https://github.com/your-username/anomaly-detection-dashboard.git
+
 cd anomaly-detection-dashboard
 
 2. Set Up Virtual Environment
 
 python3 -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. Install Dependencies
 
 pip install -r requirements.txt
+
 If you don’t have requirements.txt, manually install:
+
 pip install django pandas
 
 4. Run the Server
@@ -51,17 +55,17 @@ Visit http://localhost:8000 to see the dashboard.
 📁 Project Structure
 
 anomaly_detection/
-├── anomaly_dashboard/      # Django project settings
-│   └── urls.py
-├── dashboard/              # Main app
-│   ├── templates/
-│   ├── static/
-│   ├── views.py
-│   ├── urls.py
-│   └── ...
-├── anomaly_data.csv        # Sample dataset
-├── manage.py
-└── README.md
+├── anomaly_dashboard/ # Django project settings
+│ └── urls.py
+├── dashboard/ # Main app
+│ ├── templates/ # HTML templates
+│ ├── static/ # CSS, JS, images
+│ ├── views.py # Core logic
+│ ├── urls.py # App routing
+│ └── ...
+├── anomaly_data.csv # Sample dataset
+├── manage.py # Django management script
+└── README.md # Project documentation
 
 📷 Screenshots<img width="1470" alt="Screenshot 2025-07-10 at 00 28 59" src="https://github.com/user-attachments/assets/c890174b-be2d-4097-88f5-5e23326e71e8" />
 
